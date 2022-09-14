@@ -1,0 +1,30 @@
+.container {
+  height: 100vh;
+  padding: 10px 15%;
+  margin-top: 5rem;
+}
+
+.container h2 {
+  padding-bottom: 5px;
+  color: var(--color1);
+}
+
+@media only screen and (max-width: 950px) {
+  .container {
+    /* height: auto; */
+    display: flex;
+    flex-direction: row;
+    margin-top: 1rem;
+    padding: 10px 3%;
+  }
+}
+
+@media only screen and (max-width: 710px) {
+  .container {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+    padding: 10px 3%;
+  }
+}

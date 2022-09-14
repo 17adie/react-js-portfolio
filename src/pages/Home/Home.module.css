@@ -1,0 +1,152 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  padding: 10px 15%;
+}
+
+.l-side {
+  /* display: flex; */
+  flex: 1;
+  flex-direction: column;
+  /* animation: fadeIn 2s ease-in-out; */
+}
+
+.r-side {
+  display: flex;
+  /* animation: fadeInRight 0.35s ease-in-out; */
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+}
+
+.info > :nth-child(1) {
+  color: var(--color2);
+  font-size: 1.4rem;
+}
+
+.info > :nth-child(2) {
+  font-size: 2.3rem;
+  font-weight: bolder;
+  color: var(--color1);
+  margin-top: 10px;
+}
+
+.info > :nth-child(2):before {
+  content: "I'M ";
+  color: var(--color2);
+  font-weight: 100;
+}
+
+.info > :nth-child(3) {
+  font-size: 1rem;
+  color: var(--color1);
+  margin-top: -5px;
+  margin-left: 1px;
+}
+
+.icons {
+  display: flex;
+  /* justify-content: center; */
+  /* align-items: center; */
+  gap: 20px;
+  font-size: 1.7rem;
+  margin-top: 30px;
+}
+
+.icons a {
+  color: var(--color2);
+}
+
+.icons a:hover {
+  cursor: pointer;
+  color: var(--color1);
+}
+
+.r-side img {
+  height: auto;
+  width: 25rem;
+}
+
+@media only screen and (max-width: 700px) {
+  .r-side img {
+    height: auto;
+    width: 20rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+    display: flex;
+    /* height: auto; */
+    flex-direction: column;
+    /* margin-top: 2.5rem; */
+    padding: 10px 3%;
+  }
+
+  .info > :nth-child(1) {
+    color: var(--color1);
+    font-size: 1.4rem;
+  }
+
+  .info > :nth-child(2) {
+    font-size: 1.8rem;
+    font-weight: bolder;
+    color: var(--color2);
+    margin-top: 10px;
+  }
+
+  .info > :nth-child(2):before {
+    content: "I'M ";
+    color: var(--color1);
+    font-weight: 100;
+  }
+
+  .info > :nth-child(3) {
+    font-size: 0.9rem;
+    color: var(--color1);
+    margin-top: -1px;
+    margin-left: 2px;
+  }
+
+  .icons {
+    margin-top: 3rem;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .r-side {
+    display: flex;
+    flex: none;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+  }
+
+  .l-side {
+    margin-top: 2rem;
+    flex: none;
+  }
+}
+
+/* @keyframes fadeInRight {
+  from {
+    opacity: 0;
+    transform: translateX(150px);
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+} */

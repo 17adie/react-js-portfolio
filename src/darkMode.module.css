@@ -1,0 +1,25 @@
+.dark ul,
+.dark p,
+.dark-contact {
+  background-color: var(--gray);
+}
+
+.light ul,
+.light p,
+.light-contact {
+  background-color: var(--color5);
+}
+
+.dark ul li div,
+.dark p,
+.dark-contact div span,
+.dark-contact > label {
+  color: var(--color5);
+}
+
+.light ul li div,
+.light p,
+.light-contact div span,
+.light-contact > label {
+  color: var(--gray);
+}

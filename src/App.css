@@ -1,0 +1,29 @@
+:root {
+  --off-white: hsl(0, 0%, 98%);
+
+  --color1: #e79e4f;
+  --color2: #a05344;
+  --color3: #734046;
+  --color4: #321f28;
+  --color5: #f9fbfd;
+
+  --gray: #333333;
+  --dark: #222222;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
