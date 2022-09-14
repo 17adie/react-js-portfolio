@@ -75,6 +75,7 @@
     align-items: center;
     height: auto;
     padding: 10px 3%;
+    margin-top: 5rem;
   }
 
   .l-side img {
@@ -110,6 +111,12 @@
   .contact-info div span {
     font-size: 0.7rem;
     padding-bottom: 1px;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .container {
+    margin-top: 2rem;
   }
 }
 

@@ -113,11 +113,13 @@
   }
 }
 
-@media only screen and (max-width: 950px) {
+@media only screen and (max-width: 700px) {
   .container {
     display: flex;
     flex-direction: column;
     padding: 10px 3%;
+    margin-top: 10rem;
+    margin-bottom: 10rem;
   }
 
   .l-side img {
@@ -138,6 +140,16 @@
     align-content: center;
   }
 }
+
+@media only screen and (max-width: 450px) {
+  .container {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+
+  }
+}
+
+
 
 /* @keyframes fadeInLeft {
   from {
