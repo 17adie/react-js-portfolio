@@ -27,7 +27,7 @@
 }
 
 .line {
-  border-bottom: 5px solid var(--color2);
+  border-bottom: 3px solid var(--color2);
   width: 4rem;
 }
 

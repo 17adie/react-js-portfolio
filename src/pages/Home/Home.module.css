@@ -113,7 +113,8 @@
   }
 
   .icons {
-    margin-top: 3rem;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
     justify-content: center;
     align-items: center;
   }
@@ -127,8 +128,12 @@
   }
 
   .l-side {
-    margin-top: 2rem;
     flex: none;
+  }
+
+  .r-side img {
+    height: auto;
+    width: 18rem;
   }
 }
 
