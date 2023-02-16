@@ -36,10 +36,9 @@ export default function Card() {
   })
 
   return (
-    <div>
+    <div className={styles["project-container"]}>
       <h2>My projects.</h2>
       <div className={styles.line}></div>
-
       <ul className={styles["image-gallery"]}>{ProjectList}</ul>
     </div>
   )

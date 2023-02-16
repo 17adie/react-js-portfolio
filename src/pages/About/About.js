@@ -23,7 +23,7 @@ export default function About() {
       <div className={`${styles["r-side"]} ${darkMode ? darkModeStyles["dark"] : darkModeStyles["light"]}`}>
         <h2>About me</h2>
         <div className={styles.line}></div>
-        <p>Hello! I am a Web Developer experienced in building Web Applications. I enjoy developing interactive web applications and I use my free time to learn and practice my skills.</p>
+        <p>As a web developer, I specialize in building interactive and visually appealing web applications. I am committed to continuously learning and improving my skills, and I enjoy the challenges and opportunities that come with creating user-friendly websites.</p>
 
         <h4>Qualities</h4>
         <ul>
