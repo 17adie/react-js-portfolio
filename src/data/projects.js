@@ -49,7 +49,7 @@ export const data = [
     title: "My Portfolio",
     subtitle: "Created from scratch using Reactjs",
     demo_link: "https://aldrinefacistol.netlify.app/",
-    git_link: "https://github.com/17adie/my-reactjs-portfolio",
+    git_link: "https://github.com/17adie/react-js-portfolio",
     img_url: require("../img/projects/my-portfolio.png"),
     details: "",
   },
